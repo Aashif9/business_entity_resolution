@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Intermediate caches and working files (40+ GB of scratch parquets)
+work/
+.ipynb_checkpoints/
+.pytest_cache/
+*.parquet
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Challenge submission archives (can be built with utils/package_submission.py)
+*_submission.zip
+aws_code_bundle.zip
+
+# Large dataset & output TSV files (>100MB limit on GitHub)
+*.tsv
+!.gitkeep
+

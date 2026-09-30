@@ -1,0 +1,8 @@
+polars==1.44.2
+pyarrow==23.0.1
+numpy==2.4.2
+numba==0.64.0
+rapidfuzz==3.14.6
+unidecode==1.4.0
+lightgbm==4.7.0
+psutil==7.2.2
